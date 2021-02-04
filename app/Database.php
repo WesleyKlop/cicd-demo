@@ -32,7 +32,7 @@ final class Database
             getenv("MYSQL_USER") ?: 'root',
             getenv("MYSQL_PASSWORD") ?: '',
             getenv("MYSQL_DATABASE") ?: 'cicd',
-            getenv("MYSQL_HOST") ?: '127.0.0.1',
+            getenv("MYSQL_HOST") ?: '127.0.0.1:3306',
         );
     }
 
